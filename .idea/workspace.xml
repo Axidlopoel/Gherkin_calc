@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="153c4663-3156-4b2a-a4bb-8f09fdb1f5e0" name="Changes" comment="Initial commit">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/calc/example.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/calc/calculator.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/calc/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calc/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/calc/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calc/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +27,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2oNNrqEsoGy58AOjCCbZ6IhKj3i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Gherkin_calc [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Gherkin_calc [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,8 +77,20 @@
       <option name="project" value="LOCAL" />
       <updated>1730706573449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1730708515284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730708515284</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
