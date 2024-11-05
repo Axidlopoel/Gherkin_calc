@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="153c4663-3156-4b2a-a4bb-8f09fdb1f5e0" name="Changes" comment="Initial commit">
+    <list default="true" id="153c4663-3156-4b2a-a4bb-8f09fdb1f5e0" name="Changes" comment="Cucumber demo test commit">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/calc/calculator.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/calc/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calc/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/calc/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calc/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/calc/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/calc/calculator.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +35,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.Gherkin_calc [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [site].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Gherkin_calc [verify].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.RunCucumberTest.executor": "Run",
+    "Maven.Gherkin_calc [clean].executor": "Run",
+    "Maven.Gherkin_calc [compile].executor": "Run",
+    "Maven.Gherkin_calc [deploy].executor": "Run",
+    "Maven.Gherkin_calc [install].executor": "Run",
+    "Maven.Gherkin_calc [package].executor": "Run",
+    "Maven.Gherkin_calc [site].executor": "Run",
+    "Maven.Gherkin_calc [test].executor": "Run",
+    "Maven.Gherkin_calc [validate].executor": "Run",
+    "Maven.Gherkin_calc [verify].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gherkin_calc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calc" />
+      <option name="MAIN_CLASS_NAME" value="calc.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730708515284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cucumber demo test commit">
+      <option name="closed" value="true" />
+      <created>1730720823572</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730720823572</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -94,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Cucumber demo test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber demo test commit" />
   </component>
 </project>

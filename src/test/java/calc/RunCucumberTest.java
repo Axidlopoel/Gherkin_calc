@@ -10,6 +10,8 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("calc")
-@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
+@ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, htlm:target/CucumberHtmlReports.html")
+@ConfigurationParameter(key = "cucumber.filter.tags", value = "@calculator")
 public class RunCucumberTest {
+
 }
